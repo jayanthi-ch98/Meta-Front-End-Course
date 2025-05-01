@@ -1,0 +1,20 @@
+.Main_container{
+    animation: myanimation 5s infinite 3s;
+    background-color: aqua;
+    width:100px;
+    height:50px;
+        
+}
+.div container{
+    animation:firstanimation 5s
+}
+@keyframes myanimation {
+    from{
+        width:100px;
+        background-color: #ffffff;
+    }
+    to{
+        width:200px;
+        background-color: orange;
+    }
+}

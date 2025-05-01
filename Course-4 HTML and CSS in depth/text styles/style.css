@@ -1,0 +1,17 @@
+.container{
+
+    height:540px;
+    background-color: blanchedalmond;
+    padding:2px;
+}
+.text{
+    width:100px;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    /* overflow: clip; */
+    /* writing-mode: vertical-rl; */
+    word-wrap: break-word;
+}
+.text:hover{
+    /* overflow: visible; */
+}

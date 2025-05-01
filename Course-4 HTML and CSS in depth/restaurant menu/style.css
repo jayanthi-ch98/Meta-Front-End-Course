@@ -1,0 +1,52 @@
+*{
+    font-family: Monaco;
+}
+.body_container{
+    margin : 20px;
+    height:auto;
+}
+.heading_container,.menu_container{
+    color:#FA9F42;
+    text-align: center;
+}
+.linetag{
+    height: 3px;
+    color:gray;
+    background-color: gray;
+}
+.menu_items_container{
+    background-color: #E0E0E2;
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    align-items: stretch;
+    
+}
+.section{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    padding: 1rem;
+}
+.section_heading{
+    color: green;
+}
+.section_container{
+
+}
+.item_container{
+margin-top:10px;
+}
+.label{
+margin-bottom:-3px;
+}
+.price{
+    float:right;
+}
+.description{
+    margin-top:-8px;
+}
+hr{
+    height:2px;
+    background-color: gray;
+}

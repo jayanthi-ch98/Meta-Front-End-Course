@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Form page</title>
+<link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+<div class="headingclass" id="headingid">
+<h1 id="formh1">Registration form</h1>
+<h2 id="formh2">Finalising the details to be selected </h2>
+</div>
+<div id="formid" class="formclass">
+<p>Its a paragraph 1 to check the styles<p>
+<form action="/registarion" method="POST">
+<label for="UserName">UserName:</label>
+<input type="text" name="userName"></input><br/><br/>
+<label for="Password">Password:</label>
+<input type="password" name="Password"></input><br/><br/>
+<p>Its paragraph-2 to check the styles</p>
+<label for="Gender">Gender:</label>
+<input type="radio" name="gender" value ="male">Male</input>
+<input type="radio" name="gender" value="Female"/>Female</input><br/><br/>
+<label for="Qualifications">Qualifications:</label>
+<input type="checkbox" value="10th" name="Qualifications">10th</input>
+<input type="checkbox" value="Intermediate" name="Qualifications">Intermediate</input>
+<input type="checkbox" value="Diploma" name="Qualifications">Diploma</input>
+<input type="checkbox" value="Graduate" name="Qualifications">Graduate</input>
+<input type="checkbox" value="PostGraduate" name="Qualifications">PostGraduate</input><br/><br/>
+<label for="ReasonforApplication">Reason for Application:</label>
+<select name="ExploringHtml">
+<option name="ReasonforApplication" value ="TCS Application">TCS Application</option>
+<option name="ReasonforApplication" value ="Infosys Application">Infosys Application</option>
+<option name="ReasonforApplication" value ="Cognizant Application">Cognizant Application</option>
+</select><br/><br/>
+</div>
+
+<div>
+<input type="submit" value="submit" name="submit"/>
+</div>
+<dl>
+	<dt>1.Terms of description</dt>
+	<dd> defining how description definition works</dd>
+	<dt>2.Terms of description</dt>
+	<dd> defining how description definition works</dd>
+	<dt>3.Terms of description</dt>
+	<dd> defining how description definition works</dd>
+</dl>
+
+</form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.searchbox_container{
+    display:inline-flex;
+    justify-content:center;
+    flex:1 1 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow:hidden;
+
+}
+.search_icon{
+    padding:0.8rem
+}
+.searchtextbox{
+    border:0;
+    flex:1;
+}
+.submitbutton{
+background-color: #0f4a8a;
+color:white;
+border:0;
+border-radius:10px;
+padding: 1rem;
+align-items: center;
+
+}

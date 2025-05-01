@@ -1,0 +1,53 @@
+.row{
+    display : flex;
+    align-items:stretch;
+
+}
+.row .label{
+    flex:0 0 auto;
+}
+.row .container{
+ display:flex;
+    flex:1;
+ justify-content: flex-start;
+}
+.bar{
+    justify-content: center;
+    align-items: center;
+}
+.pasta{
+    background-color: blue;
+}
+.pizza{
+    background-color: brown;
+}
+.ravioli{
+    background-color: bisque;
+}
+.columns{
+    display:flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    height:400px;
+    border:1px solid black;
+}
+.column_container{
+    padding:2rem;
+    flex:1;
+    flex-direction: column;
+    display:flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    width:200px;
+}
+.bar{
+    display:flex;
+    border:1px solid #ffffff;
+}
+.male{
+    background-color: blue;
+}
+.female{
+    background-color: brown;
+}
