@@ -1,0 +1,22 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.navigation_container{
+    display: flex;
+    justify-content:stretch;
+    background-color: #2b2d42;
+    flex-flow: row wrap;
+}
+.navigation_container li{
+    list-style-type: none;
+}
+.navigation_container a{
+    color:#ffffff;
+    padding:2rem;
+    display:inline-block;
+    margin:0 25px;
+    text-align:center;
+    text-decoration: none;
+}

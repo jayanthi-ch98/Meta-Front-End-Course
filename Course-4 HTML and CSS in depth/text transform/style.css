@@ -1,0 +1,30 @@
+.main_container{
+    display:flex;
+    background-color: bisque;
+    flex-direction: column;
+}
+.quote_line{
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 40px;
+    justify-content: center;
+    align-content: space-between;
+    color:orange;
+   
+}
+.quote_line:nth-child(even){
+    transform: rotate(90deg);
+        transition: 5sec;
+}
+.quote_line:hover:nth-child(even) {
+    transform: rotate(0deg);
+    transition: 5sec;
+}
+.quote_line:nth-child(odd) {
+    transform: rotate(0deg);
+    transition: 5sec;
+}
+.quote_line:hover:nth-child(odd) {
+    transform: rotate(90deg);
+    transition: 5sec;
+}

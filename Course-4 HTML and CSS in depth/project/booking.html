@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Little lemon</title>
+    </head>
+    <body>
+        <main>
+            <h1>Book a Table</h1>
+            <form method="post">
+                <div>
+                    <lable for="booking_date">Booking Date:</lable>
+                    <input type="date" name="booking_date" id="booking_date" value="01-01-2025">
+                </div>
+                <br>
+                <div>
+                    <label for="number_of_people">Number of people</label>
+                    <input type="range" name="number_of_people" id="number_of_people" value="4" min="2" max="10" oninput="this.nextElementSibling.value=this.value">
+                    <output>4</output>
+                </div>
+                <br>
+                <div>
+                    <label for="booking_location">location</label>
+                    <input id="booking_location" name="booking_location" list="locations">
+                    <datalist id="locations">
+                        <option value="Uptown"></option>
+                        <option value="Downtown"></option>
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <label for="place">Place</label>
+                    <select id="place" name="place">
+                        <option value="India">India</option>
+                        <option value="southAfrica">South Africa</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+            <label for="size">size:</label><br>
+            <fieldset id="size">
+               <label> <input type="radio" name="size" value="2" >2-seater table</label>
+                <label><input type="radio" name="size" value="4" checked>4-seater table</label>
+                <label><input type="radio" name="size" value="6" >6-seater table</label>
+            </fieldset>
+            <br>
+            </div>
+            <div>
+            <label for="location">Location:</label><br>
+            <fieldset id="location">
+            <label> <input type="radio" name="location" value="indoors" checked>Indoors</label>
+            <label> <input type="radio" name="location" value="outdoors">Outdoors</label>
+            </fieldset>
+            <br>
+            </div>
+            <div>
+            <button type="submit">Book a Table</button>
+            </div>
+            </form>
+        </main>
+    </body>
+</html>
