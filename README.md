@@ -1,3 +1,6 @@
+
+<img src="./meta-logo.png" width=150>
+
 # Meta-Front-End-Developer Professional Certificate
 
 Creating a repo to have all the details related to Front End Development Certification by Meta
