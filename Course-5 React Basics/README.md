@@ -1,3 +1,7 @@
-This module consists of all the React Basics concepts that was explained in the Certification
+# Introduction to Front-End Development
 
-All the concepts that were explained have been part of the projects that were present in respective modules
+<img src="../meta-logo.png" width=150>
+
+## Proof of Completion
+
+[Course Certification] (https://www.coursera.org/account/accomplishments/certificate/YQH30RPDVWWP)
