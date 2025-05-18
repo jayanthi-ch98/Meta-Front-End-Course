@@ -3,21 +3,20 @@
 <html>
 <head>
 <title>Form page</title>
-<link rel="stylesheet" href="/style.css"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+	<div class="bodyclass">
 <div class="headingclass" id="headingid">
-<h1 id="formh1">Registration form</h1>
-<h2 id="formh2">Finalising the details to be selected </h2>
+<h1 id="formh1" class="headingstyle">Registration form</h1>
+<h2 id="formh2" class="headingstyle">Creating an account based on the details provided.</h2>
 </div>
 <div id="formid" class="formclass">
-<p>Its a paragraph 1 to check the styles<p>
-<form action="/registarion" method="POST">
-<label for="UserName">UserName:</label>
-<input type="text" name="userName"></input><br/><br/>
+<form action="/registration" method="POST">
+<label for="UserName" class="labelclass">UserName:</label>
+<input type="text" class="inputclass" name="userName"></input><br><br>
 <label for="Password">Password:</label>
 <input type="password" name="Password"></input><br/><br/>
-<p>Its paragraph-2 to check the styles</p>
 <label for="Gender">Gender:</label>
 <input type="radio" name="gender" value ="male">Male</input>
 <input type="radio" name="gender" value="Female"/>Female</input><br/><br/>
@@ -32,11 +31,10 @@
 <option name="ReasonforApplication" value ="TCS Application">TCS Application</option>
 <option name="ReasonforApplication" value ="Infosys Application">Infosys Application</option>
 <option name="ReasonforApplication" value ="Cognizant Application">Cognizant Application</option>
-</select><br/><br/>
-</div>
-
-<div>
-<input type="submit" value="submit" name="submit"/>
+</select>
+</table><br/><br/>
+<div class="buttondiv">
+	<button type="submit" value="submit" class="buttonclass">Submit</button>
 </div>
 <dl>
 	<dt>1.Terms of description</dt>
@@ -46,8 +44,12 @@
 	<dt>3.Terms of description</dt>
 	<dd> defining how description definition works</dd>
 </dl>
+</div>
+
+
 
 </form>
+</div>
 </body>
 
 </html>
