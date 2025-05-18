@@ -1,8 +1,15 @@
 //uing while loop to add number upto n
-var counter =100
-var result =0;
-while(counter>=0){
-    result = result+counter;
-    counter--;
+// var counter =100
+// var result =0;
+// while(counter>=0){
+//     result = result+counter;
+//     counter--;
+// }
+// console.log(result)
+
+// var a;
+// console.log(a)
+function jay(){
+
 }
-console.log(result)
+console.log(jay());

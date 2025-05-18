@@ -1,0 +1,12 @@
+/* .parent-selector h1{
+    color:#15537c
+} */
+.parent-selector > h1 {
+    color: #15537c
+}
+/* .heading1 ~ p{
+    color:green;
+} */
+.heading1+p {
+    color: green;
+}

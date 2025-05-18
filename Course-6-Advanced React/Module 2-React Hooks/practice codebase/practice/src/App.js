@@ -4,6 +4,7 @@ import GoalsList from './Components/GoalsList';
 import GoalForm from './Components/GoalForm';
 import { useState } from 'react';
 import ReducerUsage from './Components/ReducerUsage';
+import Counter from './Components/Counter';
 
 function App() {
   const [form,setForm]=useState([])
@@ -16,7 +17,9 @@ function App() {
       </main> */}
 
       {/* code to use useReducer hook */}
-      <ReducerUsage/>
+      {/* <ReducerUsage/> */}
+
+      <Counter/>
     </div>
   );
 }
